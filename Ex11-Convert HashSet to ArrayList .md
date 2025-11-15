@@ -10,15 +10,44 @@ To convert a collection of distinct integers stored in a HashSet into an ArrayLi
 5.   
 
 ## Program:
-```
+```java
 /*
 Program to To convert a collection of distinct integers stored in a HashSet into an ArrayList and display its contents.
-Developed by: 
-RegisterNumber:  
+Developed by: ASWIN B
+Register Number: 212224110007
 */
+
+import java.util.*;
+
+public class HashSetToArrayList {
+
+    public static ArrayList<Integer> convertToArrayList(HashSet<Integer> set) {
+        ArrayList<Integer> list = new ArrayList<>(set);
+        return list;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        HashSet<Integer> set = new HashSet<>();
+        for (int i = 0; i < n; i++) {
+            int num = sc.nextInt();
+            set.add(num);
+        }
+
+        ArrayList<Integer> list = convertToArrayList(set);
+        System.out.println("ArrayList contents:");
+        for (int num : list) {
+            System.out.print(num + " ");
+        }
+        sc.close();
+    }
+}
+
 ```
 
 ## Output:
+<img width="524" height="550" alt="image" src="https://github.com/user-attachments/assets/0a328278-4dfa-401b-b137-abc9458d737d" />
 
 
 
