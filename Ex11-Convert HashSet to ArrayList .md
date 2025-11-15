@@ -3,11 +3,11 @@
 ## AIM:
 To convert a collection of distinct integers stored in a HashSet into an ArrayList and display its contents.
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+1. Start the program.
+2. Create a HashSet to store a collection of distinct integers.
+3. Add a few integers to the HashSet.
+4. Create an ArrayList and initialize it with the elements of the HashSet.
+5. Display the elements of both HashSet and ArrayList and End the program.
 
 ## Program:
 ```java
